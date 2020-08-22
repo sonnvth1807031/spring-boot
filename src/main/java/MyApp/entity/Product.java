@@ -1,4 +1,4 @@
-package heleyquin.entity;
+package MyApp.entity;
 
 import lombok.Data;
 

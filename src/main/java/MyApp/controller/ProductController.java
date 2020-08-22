@@ -1,14 +1,11 @@
-package heleyquin.controller;
+package MyApp.controller;
 
-import heleyquin.entity.Product;
-import heleyquin.service.ImpProductService;
+import MyApp.entity.Product;
+import MyApp.service.ImpProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Map;
-import java.util.Optional;
 
 @Controller
 @RequestMapping(path = "/admin/product")

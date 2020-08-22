@@ -1,9 +1,8 @@
-package heleyquin.service;
+package MyApp.service;
 
-import heleyquin.entity.Product;
-import heleyquin.repository.ProductRepository;
+import MyApp.entity.Product;
+import MyApp.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

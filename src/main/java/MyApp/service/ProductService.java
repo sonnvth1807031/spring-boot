@@ -1,6 +1,6 @@
-package heleyquin.service;
+package MyApp.service;
 
-import heleyquin.entity.Product;
+import MyApp.entity.Product;
 
 import java.util.List;
 
