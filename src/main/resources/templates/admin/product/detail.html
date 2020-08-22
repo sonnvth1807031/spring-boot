@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{/layout/layout-admin.html}">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div layout:fragment="content">
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <h1 class="h3 mb-2 text-gray-800">Product Detail</h1>
+        <p class="mb-4"><a th:href="@{/admin/product}">Back to list</a></p>
+        <div><th>Name </th><td th:text="${product.name}"></td></div>
+        <div><th>Price </th><td th:text="${product.price}"></td></div>
+        <div><th>Thumbnail </th>
+            <img th:src="@{${product.thumbnail}}" alt=""></div>
+        <div><th>Description </th><td th:text="${product.description}"></td></div>
+
+    </div>
+    <!-- /.container-fluid -->
+</div>
+</body>
+</html>
